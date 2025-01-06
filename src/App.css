@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.footer{
+  width: 100%;
+  background-color: rgb(32, 35, 41);
+  height: 500px;
+}
+a:hover{
+  color: #f08d49;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
