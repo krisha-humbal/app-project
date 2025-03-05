@@ -82,7 +82,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
-export default function Card({ img, heading, headsub,category,description }) {
+export default function Card({ img, heading, headsub,category,description}) {
   const theme = useTheme();
 
   return (
@@ -121,7 +121,7 @@ export default function Card({ img, heading, headsub,category,description }) {
           >
             {description}
           </Typography>
-          
+       
         </CardContent>
       </Box>
     </MUICard>
